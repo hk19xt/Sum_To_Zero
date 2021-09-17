@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 /* This class is the main class. The users can change the input values in the hardcoded lines.
    After compiling the program, the output arrays will be shown in the console.
+   Author: Hyejin Kim
+   Date: 9/17/2021
 */
 public class Main {
     public static void main(String[] args){
