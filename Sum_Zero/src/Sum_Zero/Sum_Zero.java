@@ -14,7 +14,7 @@ public class Sum_Zero {
         Arrays.sort(userInputs); //Before the binary search, we need to sort the input array.
         Set<List<Integer>> output = new HashSet<>(); //Initialize the new set for storing the new output arrays.
 
-        if(userInputs.length==0 || userInputs.length==1 || userInputs==2){ //If the length is less than three, then more input values will be needed.
+        if(userInputs.length==0 || userInputs.length==1 || userInputs.length==2){ //If the length is less than three, then more input values will be needed.
             System.out.println("There would need more input values from the user.");
             return Collections.emptyList();
         }
