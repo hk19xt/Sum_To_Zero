@@ -7,10 +7,11 @@ import java.util.List;
 */
 public class Main {
     public static void main(String[] args){
-        int[] userInputs = {-3,0,2,1,1,-2};
         Sum_Zero SZ = new Sum_Zero();
-        List output = new ArrayList();
+        List output = new ArrayList(); 
+        int[] userInputs = {-3,0,2,1,1,-2}; // Users can change the input values here.
+   
         output = SZ.Sum_Zero(userInputs);
         System.out.println("The output results will be: "+ output);
     }
-}
+}// Main
